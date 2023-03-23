@@ -1,0 +1,28 @@
+body {
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(68, 65, 65);
+    /*NOTE - shadow box and change font and center*/
+}
+
+img {
+    float: left;
+    border-radius: 1rem;
+
+}
+
+footer {
+    margin: 2rem 0 2rem 0;
+  }
+
+table {
+    text-align: center;
+}
+/*NOTE - Image in top left corner
+Title along side it
+	- Make title new header 1
+Links for home, about contact under title
+Rainbow/Image/gradient background?
+Footer */
