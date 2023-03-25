@@ -1,28 +1,162 @@
 body {
+    background: linear-gradient(magenta, rgb(49, 178, 178), rgb(24, 188, 24), rgb(184, 11, 184));
+    font-family: "Gill Sans", sans-serif;
+    font-size: medium;
 }
+/*NOTE - creates standard text and font for the entirety of the document */
 
-h1 {
+.center {
     text-align: center;
-    text-shadow: 2px 2px 3px rgb(68, 65, 65);
-    /*NOTE - shadow box and change font and center*/
+}
+/*NOTE - aligns text to center*/
+
+.footer {
+    font-size: larger;
+    font-style: italic;
+    padding: 5px;
+    margin: 5px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(253, 209, 246);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/*NOTE - added to the footer of each page. It makes the text larger and italicized. It also spaces out the anchors so they aren't
+pressed together. */
+
+#table {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
-img {
-    float: left;
-    border-radius: 1rem;
+/*NOTE - gives the table padding from other elements and centers the content of the table. */
+
+.firstHeader {
+    padding: 20px;
+    margin: 20px;
+    text-shadow: gray 2px 2px;
+    display: flex;
+    justify-content: center;
 
 }
 
-footer {
-    margin: 2rem 0 2rem 0;
+/*NOTE - used on the main header of each page. Gives some padding and margins to help space it out. Has a small shadow and is centered. */
+
+.secondHeader {
+    padding: 10px;
+    margin: 10px;
+    text-shadow: black 2px 2px;
+    color: rgb(187, 35, 201);
+    display: flex;
+    justify-content: center;
+}
+
+/*NOTE - similar to first header, but has smaller padding and margins, as well as different colors. Used on h2. */
+
+.thirdHeader {
+    padding: 10px;
+    margin: 10px;
+    text-shadow: black 2px 2px;
+    color: rgb(25, 202, 107);
+    display: flex;
+    justify-content: center;
+}
+
+/*NOTE - similar to second header, only difference is color. Used on h3. */
+
+.fourthHeader {
+    padding: 10px;
+    margin: 10px;
+    text-shadow: black 2px 2px;
+    color: rgb(238, 182, 14);
+    display: flex;
+    justify-content: center;
+}
+
+/*NOTE - almost identical to third header, except for color. Also used on h3, but is used when there ae multiple h3. */
+
+.indexImage {
+    border-radius: 2rem;
+    box-shadow: 10px 5px 5px teal;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.otherImages {
+    border-radius: 2rem;
+    box-shadow: 10px 5px 5px teal;
+}
+
+/*NOTE - this curves the corners of the image and gives it a teal shadow. As mentioned above, I was unable to figure out how to center
+the images dynamically. In a perfect world, I would have liked to have the images centered, as well as have them rounded and with a shadow. */
+
+.aboutMe {
+    padding: 20px;
+    margin: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(235, 133, 186);
+    background-color: aquamarine;
+}
+
+/*NOTE - gives div for About Me section padding, margin, border, as well as defines the border and gives a background color. */
+
+.why {
+    padding: 20px;
+    margin: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(17, 225, 197);
+    background-color: lavender;
+
+}
+
+/*NOTE - gives div padding, margin, border, as well as defines the border and gives a background color. Very similar
+to aboutMe and where. I wanted to break up the content on the page with different styles and colors*/
+
+.where {
+    padding: 20px;
+    margin: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color: antiquewhite;
+    background-color: cornflowerblue;
+}
+
+.anchors {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*NOTE - spaces out the anchors on the animated, liveAction, and musicals pages*/
+
+.goBack {
+    padding: 20px;
+    margin: 20px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+/*NOTE - increases the font on the Go Back link, as well as provides padding and centers the text*/
+
+.posters {
+    margin: 20px;
+    box-shadow: 5px 5px 5px white;
+}
+
+/*NOTE - creates a box shadow on the images associated with the anchors and gives it a margin */
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    text-align: center;
   }
 
-table {
-    text-align: center;
-}
-/*NOTE - Image in top left corner
-Title along side it
-	- Make title new header 1
-Links for home, about contact under title
-Rainbow/Image/gradient background?
-Footer */
+  /*NOTE - takes off the bullets on the unordered list and centers the text */
